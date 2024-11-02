@@ -27,11 +27,11 @@ Let's write a simple "Hello, $name" CLI program. To try it out, create a file na
 {% highlight php %}
 <?php
 if ($argc !== 2) {
-    echo "Usage: php hello.php [name].\n";
+    echo "Usage: php hello.php <name>" . PHP_EOL;
     exit(1);
 }
 $name = $argv[1];
-echo "Hello, $name\n";
+echo "Hello, $name" . PHP_EOL;
 {% endhighlight %}
 
 PHP sets up two special variables based on the arguments your script is run with. [`$argc`][argc] is an integer
@@ -45,20 +45,17 @@ To run our script, above, from the command line:
 
 {% highlight console %}
 > php hello.php
-Usage: php hello.php [name]
+Usage: php hello.php <name>
 > php hello.php world
 Hello, world
 {% endhighlight %}
 
 
  * [Learn about running PHP from the command line][php-cli]
- * [Learn about setting up Windows to run PHP from the command line][php-cli-windows]
 
-
-[phpinfo]: http://php.net/function.phpinfo
-[cli-options]: http://php.net/features.commandline.options
-[argc]: http://php.net/reserved.variables.argc
-[argv]: http://php.net/reserved.variables.argv
-[exit-codes]: http://www.gsp.com/cgi-bin/man.cgi?section=3&amp;topic=sysexits
-[php-cli]: http://php.net/features.commandline
-[php-cli-windows]: http://php.net/install.windows.commandline
+[phpinfo]: https://www.php.net/function.phpinfo
+[cli-options]: https://www.php.net/features.commandline.options
+[argc]: https://www.php.net/reserved.variables.argc
+[argv]: https://www.php.net/reserved.variables.argv
+[exit-codes]: https://www.gsp.com/cgi-bin/man.cgi?section=3&amp;topic=sysexits
+[php-cli]: https://www.php.net/manual/en/features.commandline.php

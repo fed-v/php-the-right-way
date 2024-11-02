@@ -50,14 +50,13 @@ available as `__call()` and `__callStatic()`.
 * [Read about Overloading][overloading]
 
 
-[oop]: http://php.net/language.oop5
-[traits]: http://php.net/language.oop5.traits
-[anonymous-functions]: http://php.net/functions.anonymous
-[closure-class]: http://php.net/class.closure
+[oop]: https://www.php.net/language.oop5
+[traits]: https://www.php.net/language.oop5.traits
+[anonymous-functions]: https://www.php.net/functions.anonymous
+[closure-class]: https://www.php.net/class.closure
 [closures-rfc]: https://wiki.php.net/rfc/closures
-[callables]: http://php.net/language.types.callable
-[call-user-func-array]: http://php.net/function.call-user-func-array
-[magic-methods]: http://php.net/language.oop5.magic
-[reflection]: http://php.net/intro.reflection
-[overloading]: http://php.net/language.oop5.overloading
-
+[callables]: https://www.php.net/language.types.callable
+[call-user-func-array]: https://www.php.net/function.call-user-func-array
+[magic-methods]: https://www.php.net/language.oop5.magic
+[reflection]: https://www.php.net/intro.reflection
+[overloading]: https://www.php.net/language.oop5.overloading

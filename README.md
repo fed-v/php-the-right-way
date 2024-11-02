@@ -14,9 +14,11 @@ This is the GitHub Pages repository for the _PHP: The Right Way_ project.
 _PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
 developers know where to find good information!
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[See Banner Images](https://www.phptherightway.com/banners.html)
 
 ## How to Contribute
+
+You should read the `CONTRIBUTING.md` file for precise instructions and tips. But, if you prefer a TL;DR:
 
 1. Fork and edit
 2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
@@ -24,36 +26,36 @@ developers know where to find good information!
 
 ### Contributor Style Guide
 
-1. Use American English spelling (*primary English repo only*)
+1. Use American English spelling (*primary English repo only*).
 2. Use four (4) spaces to indent text; do not use tabs.
 3. Wrap all text to 120 characters.
 4. Code samples should adhere to PSR-1 or higher.
 
 ## Where
 
-<http://www.phptherightway.com>
+<https://www.phptherightway.com>
 
-* [English](http://www.phptherightway.com)
-* [Bulgarian](http://bg.phptherightway.com)
-* [Chinese (Simplified)](http://laravel-china.github.io/php-the-right-way/)
-* [Chinese (Traditional)](http://laravel-taiwan.github.io/php-the-right-way)
-* [French](http://eilgin.github.io/php-the-right-way/)
-* [German](http://rwetzlmayr.github.io/php-the-right-way)
-* [Indonesian](http://id.phptherightway.com)
-* [Italian](http://it.phptherightway.com)
-* [Japanese](http://ja.phptherightway.com)
-* [Korean](http://modernpug.github.io/php-the-right-way)
-* [Persian](http://novid.github.io/php-the-right-way/)
-* [Polish](http://pl.phptherightway.com)
-* [Portuguese](http://br.phptherightway.com)
-* [Romanian](https://bgui.github.io/php-the-right-way/)
-* [Russian](http://getjump.github.io/ru-php-the-right-way)
-* [Serbian](http://phpsrbija.github.io/php-the-right-way/)
-* [Slovenian](http://sl.phptherightway.com)
-* [Spanish](http://phpdevenezuela.github.io/php-the-right-way)
-* [Thai](https://apzentral.github.io/php-the-right-way/)
-* [Turkish](http://hkulekci.github.io/php-the-right-way/)
-* [Ukrainian](http://iflista.github.com/php-the-right-way)
+* [English](https://www.phptherightway.com)
+* [Español](https://phpdevenezuela.github.io/php-the-right-way)
+* [Français](https://eilgin.github.io/php-the-right-way/)
+* [Indonesia](https://id.phptherightway.com)
+* [Italiano](https://it.phptherightway.com)
+* [Polski](https://pl.phptherightway.com)
+* [Português do Brasil](https://br.phptherightway.com)
+* [Română](https://bgui.github.io/php-the-right-way/)
+* [Slovenščina](https://sl.phptherightway.com)
+* [Srpski](https://phpsrbija.github.io/php-the-right-way/)
+* [Türkçe](https://hkulekci.github.io/php-the-right-way/)
+* [български](https://bg.phptherightway.com)
+* [Русский язык](https://getjump.github.io/ru-php-the-right-way)
+* [Українська](https://iflista.github.io/php-the-right-way/)
+* [العربية](https://adaroobi.github.io/php-the-right-way/)
+* [فارسى](https://novid.github.io/php-the-right-way/)
+* [ภาษาไทย](https://apzentral.github.io/php-the-right-way/)
+* [한국어판](https://modernpug.github.io/php-the-right-way)
+* [日本語](https://ja.phptherightway.com)
+* [简体中文](https://laravel-china.github.io/php-the-right-way/)
+* [繁體中文](https://laravel-taiwan.github.io/php-the-right-way)
 
 ### Translations
 
@@ -76,13 +78,13 @@ There's been a lot of discussion lately about how the PHP community lacks suffic
 
 ## Who
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+My name is [Josh Lockhart](https://twitter.com/codeguy). I'm the author of the [Slim Framework](https://www.slimframework.com/), and I work for [New Media Campaigns](https://www.newmediacampaigns.com/).
 
 ### Collaborators
 
-* [Kris Jordan](http://krisjordan.com/)
-* [Phil Sturgeon](http://philsturgeon.co.uk/)
+* [Kris Jordan](https://krisjordan.com/)
+* [Phil Sturgeon](https://phil.tech/)
 
 ## License
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-nc-sa/3.0/)

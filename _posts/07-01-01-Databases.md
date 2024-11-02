@@ -14,6 +14,6 @@ MySQL and a little bit of MSSQL, or you need to connect to an Oracle database, t
 same drivers. You'll need to learn a brand new API for each database &mdash; and that can get silly.
 
 
-[mysqli]: http://php.net/mysqli
-[pgsql]: http://php.net/pgsql
-[mssql]: http://php.net/mssql
+[mysqli]: https://www.php.net/mysqli
+[pgsql]: https://www.php.net/pgsql
+[mssql]: https://www.php.net/mssql

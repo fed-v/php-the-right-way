@@ -19,7 +19,7 @@ foreach ($db->query('SELECT * FROM table') as $row) {
 </ul>
 {% endhighlight %}
 
-This is bad practice for all sorts of reasons, mainly that its hard to debug, hard to test, hard to read and it is
+This is bad practice for all sorts of reasons, mainly that it's hard to debug, hard to test, hard to read and it is
 going to output a lot of fields if you don't put a limit on there.
 
 While there are many other solutions to doing this - depending on if you prefer [OOP](/#object-oriented-programming) or
@@ -33,7 +33,8 @@ function getAllFoos($db) {
     return $db->query('SELECT * FROM table');
 }
 
-foreach (getAllFoos($db) as $row) {
+$results = getAllFoos($db);
+foreach ($results as $row) {
     echo "<li>".$row['field1']." - ".$row['field1']."</li>"; // BAD!!
 }
 {% endhighlight %}
@@ -48,7 +49,7 @@ logic in and you have a "View", which is very nearly [MVC] - a common OOP archit
 
 {% highlight php %}
 <?php
-$db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
+$db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8mb4', 'username', 'password');
 
 // Make your model available
 include 'models/FooModel.php';
@@ -69,11 +70,8 @@ include 'views/foo-list.php';
 <?php
 class FooModel
 {
-    protected $db;
-
-    public function __construct(PDO $db)
+    public function __construct(protected PDO $db)
     {
-        $this->db = $db;
     }
 
     public function getAllFoos() {
@@ -86,7 +84,7 @@ class FooModel
 
 {% highlight php %}
 <?php foreach ($fooList as $row): ?>
-    <?= $row['field1'] ?> - <?= $row['field1'] ?>
+    <li><?= $row['field1'] ?> - <?= $row['field1'] ?></li>
 <?php endforeach ?>
 {% endhighlight %}
 
@@ -94,10 +92,5 @@ This is essentially the same as what most modern frameworks are doing, albeit a 
 need to do all of that every time, but mixing together too much presentation logic and database interaction can be a
 real problem if you ever want to [unit-test](/#unit-testing) your application.
 
-[PHPBridge] has a great resource called [Creating a Data Class] which covers a very similar topic, and is great for
-developers just getting used to the concept of interacting with databases.
 
-
-[MVC]: http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
-[PHPBridge]: http://phpbridge.org/
-[Creating a Data Class]: http://phpbridge.org/intro-to-php/creating_a_data_class
+[MVC]: https://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
